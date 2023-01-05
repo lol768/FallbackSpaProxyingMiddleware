@@ -12,7 +12,7 @@ Microsoft claim that this is intentional and that it should be up to the SPA to 
 to proxy back to the backend. This behaviour is illogical, poorly-documented and differs completely between
 development and production (where we use `UseSpaStaticFiles` / `endpoints.MapFallbackToFile`).
 
-Microsoft will not discuss or properly this logic and have locked numerous issues on the matter:
+Microsoft will not discuss or even properly document this logic and have locked numerous issues on the matter:
 
 - https://github.com/dotnet/AspNetCore.Docs/issues/18405
 - https://github.com/dotnet/aspnetcore/issues/45130#issuecomment-1326595534
