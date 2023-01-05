@@ -41,3 +41,10 @@ app.UseSpa(s =>
 
 The implementation is a bit janky, relying on reflection because the classes we need are marked `internal`, but it
 works.
+
+### FAQ
+
+#### You should be using the NPM `http-proxy-middleware` package and running it under Node.js, not doing this!
+
+No. The server is Kestrel. That's what we are using to do the proxying.
+The frontend is not in charge here.
